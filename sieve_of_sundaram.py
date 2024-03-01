@@ -39,4 +39,9 @@ def sieve_of_sundaram(*, limit: int) -> list[int]:
     return current_state
 
 
-print(sieve_of_sundaram(limit=500))
+def main(*args, **kwargs) -> None:
+    print(sieve_of_sundaram(limit=500))
+
+
+if __name__ == "__main__":
+    main()
